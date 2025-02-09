@@ -37,7 +37,7 @@ const personagens = {
     'jiren': { img: "img/jiren.jpeg", genero: "Masculino", especie: "Desconhecido", origem: "Universo 11", aparicao: "Super", mortes: 0, saga: "Torneio do Poder" },
     'kaioshin': { img: "img/kaioshin.jpeg", genero: "Masculino", especie: "Kaioshin", origem: "Desconhecido", aparicao: "Z", mortes: 1, saga: "Majin Buu" },
     'kuririn': { img: "img/kuririn.jpeg", genero: "Masculino", especie: "Humano", origem: "Terra", aparicao: "Clássico", mortes: 3, saga: "21º Torneio de Artes Marciais"},
-    'mai': { img: "img/mai.jpg", genero: "Feminino", especie: "Humana", origem: "Terra", aparicao: "Clássico", mortes: 0, saga: "Pilaf" },
+    'mai': { img: "img/mai.jpg", genero: "Feminino", especie: "Humano", origem: "Terra", aparicao: "Clássico", mortes: 0, saga: "Pilaf" },
     'mestrekame': { img: "img/kame.jpg", genero: "Masculino", especie: "Humano", origem: "Terra", aparicao: "Clássico", mortes: 2, saga: "21º Torneio de Artes Marciais"},
     'pan': { img: "img/pan.jpeg", genero: "Feminino", especie: "Humano, Sayajin", origem: "Terra", aparicao: "Z", mortes: 0, saga: "Majin Buu"},
     'piccolo': { img: "img/piccolo.jpeg", genero: "Masculino", especie: "Namekuseijin", origem: "Namekusei", aparicao: "Clássico", mortes: 2, saga: "23º Torneio de Artes Marciais"},
