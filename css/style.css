@@ -1,0 +1,276 @@
+*{
+    margin: 0;
+    font-family: "Play", serif;
+    font-size: 15px;
+    color: #FFFFFF;
+}
+body{
+    text-align: center;
+    background-image: url('../img/fundo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+header{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    color: #FFFFFF;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#logo{
+    width: 350px;
+}
+#container{
+    margin: 30px;
+    min-height: 690px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+#tela-inicio{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+#aviso-inicio{
+    width: 600px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    backdrop-filter: blur(10px);
+    background: linear-gradient(45deg, rgba(47, 98, 156, 0.8), rgba(27, 79, 139, 0.8));
+    color: #FFFFFF;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+}
+#btn-iniciar{
+    background-color: #FFFFFF;
+    color: #000000;
+    font-weight: bold;
+    cursor: pointer;
+    width: 200px;
+    height: 70px;
+    font-size: 20px;
+    border: none;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+}
+#btn-iniciar:hover {
+    color: #ffb700;
+    background-color: #FFFCED;
+    border-color: #ffd000;
+    transform: scale(1.1);
+}
+#tela-jogo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+#aviso-jogo{
+    width: 600px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    backdrop-filter: blur(10px);
+    background: linear-gradient(45deg, rgba(47, 98, 156, 0.8), rgba(27, 79, 139, 0.8));
+    color: #FFFFFF;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+}
+#aviso-jogo h1, #aviso-inicio h1{
+    font-size: 27px;
+}
+#aviso-jogo p{
+    font-size: 18px;
+}
+#busca-personagem{
+    display: flex;
+    gap: 10px;
+    padding: 10px 30px 10px 30px;
+    background: linear-gradient(45deg, #FFD300, #F18A00);
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+}
+#input-personagem{
+    background-color: #FFFFFF;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    color: #000000;
+    border: none;
+    outline: none;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+}
+#input-personagem:hover:focus {
+    background-color: #FFFCED;
+}
+#input-personagem:focus {
+    background-color: #FFFCED;
+}
+#input-personagem::placeholder {
+    font-size: 14px;
+}
+#btn-buscar{
+    background-color: #FFFFFF;
+    color: #000000;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    border: none;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+}
+#btn-buscar:hover {
+    color: #ffb700;
+    background-color: #FFFCED;
+    border-color: #ffd000;
+    transform: scale(1.1);
+}
+#personagem-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#topicos{
+    display: flex;
+    justify-content: space-around;
+    gap: 13px;
+    backdrop-filter: blur(10px);
+    background-color: rgba(105, 86, 153, 0.8);
+    color: #FFFFFF;
+    margin: 10px;
+    padding: 20px;
+}
+#topicos h3{
+    text-align: center;
+    width: 100px;
+    border-bottom: 3px solid #FFFFFF;
+}
+#dados-personagem{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 17px;
+    overflow-y: scroll;
+    max-height: 400px;
+    box-sizing: border-box;
+}
+#dados{
+    display: flex;
+    flex-direction: row;
+    gap: 9px;
+}
+.imagem, .genero, .origem, .especie, .aparicao, .saga, .mortes{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #DA150F;
+    color: #FFFFFF;
+    border: 2px solid #000000;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+}
+.erro{
+    background-color: #DA150F;
+    padding: 5px;
+}
+#tela-vitoria{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#aviso-vitoria{
+    width: 500px;
+    height: 100px;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 20px 0;
+    gap: 7px;
+    backdrop-filter: blur(10px);
+    background: linear-gradient(45deg, rgba(11, 194, 46, 0.8), rgba(0, 255, 47, 0.8));
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+}
+#container-indicadores{
+    width: 600px;
+    height: 120px;
+    backdrop-filter: blur(10px);
+    background: linear-gradient(45deg, rgba(19, 20, 21, 0.8), rgba(39, 41, 42, 0.8));
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+#indicadores{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.indicadores-caixas{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+#correto, #parcial, #incorreto, #mais-recente, #mais-antigo{
+    width: 50px;
+    height: 50px;
+    background-color: #000000;
+}
+#correto{
+    background-color: #0BC22E;
+}
+#parcial{
+    background-color: #DB820C;
+}
+#incorreto{
+    background-color: #DA150F;
+}
+#mais-recente{
+    background: linear-gradient(to top, #da150f, #0bc22e);
+}
+#mais-antigo{
+    background: linear-gradient(to bottom, #da150f, #0bc22e);
+}
+#btn-recomecar{
+    width: 200px;
+    height: 70px;
+    font-size: 20px;
+    background-color: #FFFFFF;
+    color: #000000;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+}
+#btn-recomecar:hover {
+    background-color: #FFFCED;
+    color: #ffb700;
+    border-color: #ffd000;
+    transform: scale(1.1);
+}
+

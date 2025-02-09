@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="img/icone.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap" rel="stylesheet">
+    <title>DragonBalldle</title>
+</head>
+<body>
+    <header>
+        <figure><img id="logo" src="img/logo.png" alt="logo"></figure>
+    </header>
+
+    <main>
+        <div id="container">
+            <div id="tela-inicio">
+                <div id="aviso-inicio">
+                    <h1>Adivinhe o personagem de Dragon Ball</h1>
+                    <p>Consiga pistas a cada tentativa</p>
+                </div>
+
+                <div id="iniciar">
+                    <button id="btn-iniciar">COMEÇAR</button>
+                </div>
+            </div>
+
+            <div id="tela-vitoria">
+                <div id="aviso-vitoria">
+                    <h1>PARABÉNS, VOCÊ DESCOBRIU O PERSONAGEM!</h1>
+                    <div id="total-tentativas"></div>
+                </div>
+            </div>
+
+            <div id="tela-jogo">
+                <div id="aviso-jogo">
+                    <p>O personagem foi Sorteado! Digite um nome para iniciar.</p>
+                </div>
+                <div id="busca-personagem">
+                    <input type="text" id="input-personagem" placeholder="Digite o nome do personagem" autocomplete="off" list="lista-personagens">
+                    <button id="btn-buscar">&#10148;</button>
+                </div>
+
+                <datalist id="lista-personagens" class="sugestoes"></datalist>
+    
+                <div id="personagem-container">
+                    <div id="topicos">
+                        <h3>Personagem</h3>
+                        <h3>Gênero</h3>
+                        <h3>Espécie</h3>
+                        <h3>Origem</h3>
+                        <h3>Aparição</h3>
+                        <h3>Mortes</h3>
+                        <h3>Saga</h3>
+                    </div>
+                    
+                    <div id="dados-personagem"></div>
+                </div>
+            </div>
+            
+            <div id="container-indicadores">
+                <h3>Indicadores de cor</h3>
+                <div id="indicadores">
+                    <div class="indicadores-caixas">
+                        <div id="correto"></div>
+                        <p>correto</p>
+                    </div>
+                    <div class="indicadores-caixas">
+                        <div id="parcial"></div>
+                        <p>parcial</p>
+                    </div>
+                    <div class="indicadores-caixas">
+                        <div id="incorreto"></div>
+                        <p>incorreto</p>
+                    </div>
+                    <div class="indicadores-caixas">
+                        <div id="mais-recente"></div>
+                        <p>superior</p>
+                    </div>
+                    <div class="indicadores-caixas">
+                        <div id="mais-antigo"></div>
+                        <p>inferior</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div id="recomecar">
+                <button id="btn-recomecar">VOLTAR AO INÍCIO</button>
+            </div>
+        </div>
+        
+    </main>
+
+    <footer>
+        <p>&copy; DragonBaldle - 2025</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
