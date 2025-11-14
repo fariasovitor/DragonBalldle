@@ -5,7 +5,7 @@ O objetivo é adivinhar o personagem sorteado com base nas dicas fornecidas a ca
 
 🔗 Teste o jogo online
 Você pode testar a versão atual do projeto diretamente pelo GitHub Pages:
->>>    https://fariasovitor.github.io/DragonBalldle/
+>    https://fariasovitor.github.io/DragonBalldle/
 
 Tecnologias utilizadas
 - HTML
