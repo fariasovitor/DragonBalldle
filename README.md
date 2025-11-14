@@ -1,6 +1,6 @@
 # **DragonBalldle**
 
-Jogo de adivinhação inspirado nos populares jogos da família “DLE”, inspirado no universo de Dragon Ball.
+Jogo de adivinhação inspirado nos populares jogos da família “DLE” e baseado no universo de Dragon Ball.
 O objetivo é adivinhar o personagem sorteado com base nas dicas fornecidas a cada tentativa e ver em quantas você consegue vencer.
 
 ## 🔗 Teste o jogo online
